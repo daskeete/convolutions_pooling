@@ -4,7 +4,9 @@
 
 filter #1: [ [5, 2, 3], [-3, 0, -3], [-1, -2, -1]]
 
-(detailed.png)
+![](detailed.png)
+![My image Plot](number_7.png)
+
 
 What are you functionally accomplishing as you apply the filter to your original array (see the following snippet for reference)? Why is the application of a convolving filter to an image useful for computer vision? 
 
