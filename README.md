@@ -2,9 +2,19 @@
 
 ## Last time you did an exercise (convolutions and pooling) where you manually applied a 3x3 array as a filter to an image of two people ascending an outdoor staircase. Modify the existing filter and if needed the associated weight in order to apply your new filters to the image 3 times. Plot each result, upload them to your response, and describe how each filter transformed the existing image as it convolved through the original array and reduced the object size.
 
+![](ascent.png)
+
 filter #1: [ [5, 2, 3], [-3, 0, -3], [-1, -2, -1]]
 
+Highligths lines
 ![](detailed.png)
+
+Blends lines
+filter #2 = [ [-5, 0, 5], [2, 0, -2], [3, 0, -3]] 
+
+Reveals cirrostratus clouds in background
+filter = [ [20, -40, 20], [30, -60, 30], [40, -80, 40]]
+
 
 What are you functionally accomplishing as you apply the filter to your original array (see the following snippet for reference)? Why is the application of a convolving filter to an image useful for computer vision? 
 
