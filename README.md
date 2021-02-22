@@ -89,6 +89,7 @@ This method would be useful to conserve space and increase computational efficie
 
 ### Stretch goal: again, instead of using misc.ascent(), apply the pooling filter to one of your transformed images.
 
+![](pool2.png)
 
 
 ### Convolve the 3x3 filter over the 9x9 matrix and provide the resulting matrix. link to matrices
