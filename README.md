@@ -91,5 +91,5 @@ This method would be useful to conserve space and increase computational efficie
 
 ![](pool2.png)
 
-..
-### Convolve the 3x3 filter over the 9x9 matrix and provide the resulting matrix. link to matrices
+
+### Convolve the 3x3 filter over the 9x9 matrix and provide the resulting matrix
