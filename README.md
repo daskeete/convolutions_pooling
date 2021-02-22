@@ -43,6 +43,10 @@ It helps by removing any unnecessary features and allows you to keep only the pr
 
 ### Stretch goal: instead of using the misc.ascent() image from scipy, can you apply three filters and weights to your own selected image? Again describe the results.
 
+![](city.jpg)
+
+
+
 ### Filter #1 emphasizes the vertical lines of the image, makes it darker in the foreground which pulls attention away from it and toward the background.
 
 <code> filter #1: [ [1, 1, 1], [-2, 0, 2], [-1, 0, -2]] </code>
@@ -58,7 +62,7 @@ It helps by removing any unnecessary features and allows you to keep only the pr
 
 ![](filter2.jpg)
 
-### Filter #3 emphasizes the horizontal and vertical lines. Even the lines on the pathway that the woman walks on are visible now when compared to the other two filters.
+### Filter #3 emphasizes the horizontal and vertical lines. Even the lines on the pathway that the woman walks on are more visible now when compared to the other two filters.
 
 <code> filter #3 = [ [2, 4, 2], [1,-2,1], [-4, -8, 4]] </code>
 
