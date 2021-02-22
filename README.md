@@ -30,7 +30,16 @@
 
 
 
-What are you functionally accomplishing as you apply the filter to your original array (see the following snippet for reference)? Why is the application of a convolving filter to an image useful for computer vision? 
+### What are you functionally accomplishing as you apply the filter to your original array (see the following snippet for reference)? 
+
+Basically we take a single pixel and it's neighbors so many so that we get a 3x3 array, multiply that array by a filter, then we add all those numbers to get a new pixel value and then we repeat the process. We end up with a transformed image with the desired relevant/important features.
+
+
+### Why is the application of a convolving filter to an image useful for computer vision? 
+
+It helps by removing any unnecessary features and allows you to keep only the prominent features/ features that you deem are important. Doing this allows us to train the computer to identify features in images instead of just matching groups of pixels that look similar.
+
+
 
 Stretch goal: instead of using the misc.ascent() image from scipy, can you apply three filters and weights to your own selected image? Again describe the results.
 
