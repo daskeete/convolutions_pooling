@@ -75,7 +75,7 @@ It helps by removing any unnecessary features and allows you to keep only the pr
 ![](pool1.png)
 
 ### In effect what have you accomplished by applying this filter? Does there seem to be a logic (i.e. maximizing, averaging or minimizing values?) associated with the pooling filter provided in the example exercise (convolutions & pooling)? 
-By applying this filter i have reduced the overall size of the image. Since this 2x2 filter takes the largest value of every block it iterates over there seems to be a logic of maximizing. Although we take the largest value from every block we still manage to reduce the size of the image by 75%.
+By applying this filter i have reduced the overall size of the image. Since this 2x2 filter takes the largest value of every block it iterates over there seems to be a logic of maximizing.
 
 
 
