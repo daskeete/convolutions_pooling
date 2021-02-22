@@ -1,12 +1,12 @@
 # February 21 Response
 
-## Last time you did an exercise (convolutions and pooling) where you manually applied a 3x3 array as a filter to an image of two people ascending an outdoor staircase. Modify the existing filter and if needed the associated weight in order to apply your new filters to the image 3 times. Plot each result, upload them to your response, and describe how each filter transformed the existing image as it convolved through the original array and reduced the object size.
+### Last time you did an exercise (convolutions and pooling) where you manually applied a 3x3 array as a filter to an image of two people ascending an outdoor staircase. Modify the existing filter and if needed the associated weight in order to apply your new filters to the image 3 times. Plot each result, upload them to your response, and describe how each filter transformed the existing image as it convolved through the original array and reduced the object size.
 
 ![](ascent.png)
 
 
 
-## Filter #1 highlights the vertical lines very strongly.
+### Filter #1 highlights the vertical lines very strongly.
 
 <code> filter #1: [ [5, 2, 3], [-3, 0, -3], [-1, -2, -1]] </code>
 
@@ -15,13 +15,13 @@
 
 
 
-## Filter #2 seems to emphasize the horizontal lines further away from the camera.
+### Filter #2 seems to emphasize the horizontal lines further away from the camera.
 
 <code> filter #2 = [ [-5, 0, 5], [2, 0, -2], [3, 0, -3]] </code>
 
 ![](blend.png)
 
-## Filter #3 Not only emphasizes horizontal and vertical lines but it also reveals cirrostratus clouds in the background not visible in the original image. This is very cool.
+### Filter #3 Not only emphasizes horizontal and vertical lines but it also reveals cirrostratus clouds in the background not visible in the original image. This is very cool.
 
 <code> filter #3 = [ [20, -40, 20], [30, -60, 30], [40, -80, 40]] </code>
 
