@@ -70,7 +70,7 @@ It helps by removing any unnecessary features and allows you to keep only the pr
 
 
 
-### Another useful method is pooling. Apply a 2x2 filter to one of your convolved images, and plot the result.
+# Another useful method is pooling. Apply a 2x2 filter to one of your convolved images, and plot the result.
 
 ![](pool1.png)
 
