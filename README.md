@@ -30,7 +30,7 @@
 
 
 
-### What are you functionally accomplishing as you apply the filter to your original array (see the following snippet for reference)? 
+ What are you functionally accomplishing as you apply the filter to your original array (see the following snippet for reference)? 
 
 Basically we take a single pixel and it's neighbors so many so that we get a 3x3 array, multiply that array by a filter, then we add all those numbers to get a new pixel value and then we repeat the process. We end up with a transformed image with the desired relevant/important features.
 
