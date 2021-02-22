@@ -6,7 +6,7 @@
 
 
 
-## Filter #1 highlights the lines very strongly.
+## Filter #1 highlights the vertical lines very strongly.
 
 <code> filter #1: [ [5, 2, 3], [-3, 0, -3], [-1, -2, -1]] </code>
 
@@ -15,13 +15,13 @@
 
 
 
-## Filter #2 blends horizontal lines together
+## Filter #2 seems to emphasize the horizontal lines further away from the camera.
 
 <code> filter #2 = [ [-5, 0, 5], [2, 0, -2], [3, 0, -3]] </code>
 
 ![](blend.png)
 
-## Filter #3 reveals cirrostratus clouds in background
+## Filter #3 Not only emphasizes horizontal and vertical lines but it also reveals cirrostratus clouds in the background not visible in the original image. This is very cool.
 
 <code> filter #3 = [ [20, -40, 20], [30, -60, 30], [40, -80, 40]] </code>
 
