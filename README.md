@@ -43,7 +43,26 @@ It helps by removing any unnecessary features and allows you to keep only the pr
 
 ### Stretch goal: instead of using the misc.ascent() image from scipy, can you apply three filters and weights to your own selected image? Again describe the results.
 
+### Filter #1 highlights the vertical lines very strongly.
 
+<code> filter #1: [ [1, 1, 1], [-2, 0, 2], [-1, 0, -2]] </code>
+
+
+![](filter1.png)
+
+
+
+### Filter #2 seems to emphasize the horizontal lines further away from the camera.
+
+<code> filter #2 = [ [-5, 0, 5], [1, 3, -2], [-1, 0, -1]] </code>
+
+![](filter2.png)
+
+### Filter #3 Not only emphasizes horizontal and vertical lines but it also reveals cirrostratus clouds in the background not visible in the original image. This is very cool.
+
+<code> filter #3 = [ [2, 4, 2], [1,-2,1], [-4, -8, 4]] </code>
+
+![](filter3.png)
 
 
 
