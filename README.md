@@ -5,7 +5,8 @@
 ![](ascent.png)
 
 ## Filter #1 highlights the lines very strongly.
-filter #1: [ [5, 2, 3], [-3, 0, -3], [-1, -2, -1]]
+<code> filter #1: [ [5, 2, 3], [-3, 0, -3], [-1, -2, -1]]
+  </code>
 
 ![](detailed.png)
 
