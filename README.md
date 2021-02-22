@@ -4,17 +4,20 @@
 
 ![](ascent.png)
 
+## Filter #1 highlights the lines very strongly.
 filter #1: [ [5, 2, 3], [-3, 0, -3], [-1, -2, -1]]
 
-Highligths lines
 ![](detailed.png)
 
-Blends lines
+
+
+## Filter #2 blends horizontal lines together
 filter #2 = [ [-5, 0, 5], [2, 0, -2], [3, 0, -3]] 
+![](blend.png)
 
-Reveals cirrostratus clouds in background
-filter = [ [20, -40, 20], [30, -60, 30], [40, -80, 40]]
-
+## Filter #3 reveals cirrostratus clouds in background
+filter #3 = [ [20, -40, 20], [30, -60, 30], [40, -80, 40]]
+![](clouds.png)
 
 What are you functionally accomplishing as you apply the filter to your original array (see the following snippet for reference)? Why is the application of a convolving filter to an image useful for computer vision? 
 
