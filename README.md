@@ -70,19 +70,25 @@ It helps by removing any unnecessary features and allows you to keep only the pr
 
 
 
-
-
-
-
-
-
-
-
 ### Another useful method is pooling. Apply a 2x2 filter to one of your convolved images, and plot the result.
 
 ![](pool1.png)
 
-### In effect what have you accomplished by applying this filter? Does there seem to be a logic (i.e. maximizing, averaging or minimizing values?) associated with the pooling filter provided in the example exercise (convolutions & pooling)? Did the resulting image increase in size or decrease? Why would this method be useful? Stretch goal: again, instead of using misc.ascent(), apply the pooling filter to one of your transformed images.
+### In effect what have you accomplished by applying this filter? Does there seem to be a logic (i.e. maximizing, averaging or minimizing values?) associated with the pooling filter provided in the example exercise (convolutions & pooling)? 
+By applying this filter i have reduced the overall size of the image. Since this 2x2 filter takes the largest value of every block it iterates over there seems to be a logic of maximizing. Although we take the largest value from every block we still manage to reduce the size of the image by 75%.
+
+
+
+### Did the resulting image increase in size or decrease? 
+
+The image decreased in size from 512x512 to 256x256.
+
+### Why would this method be useful?
+This method would be useful to conserve space and increase computational efficiency while maintaining all relevant features.
+
+
+### Stretch goal: again, instead of using misc.ascent(), apply the pooling filter to one of your transformed images.
+
 
 
 ### Convolve the 3x3 filter over the 9x9 matrix and provide the resulting matrix. link to matrices
