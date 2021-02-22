@@ -56,7 +56,7 @@ It helps by removing any unnecessary features and allows you to keep only the pr
 
 
 
-### Filter #2 emphasizes the features of the trees making parts of the building more difficult to see.
+### Filter #2 emphasizes horizontal lines, and the features of the trees making parts of the building more difficult to see.
 
 <code> filter #2 = [ [-5, 0, 5], [1, 3, -2], [-1, 0, -1]] </code>
 
