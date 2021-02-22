@@ -75,7 +75,14 @@ It helps by removing any unnecessary features and allows you to keep only the pr
 
 
 
-### Another useful method is pooling. Apply a 2x2 filter to one of your convolved images, and plot the result. In effect what have you accomplished by applying this filter? Does there seem to be a logic (i.e. maximizing, averaging or minimizing values?) associated with the pooling filter provided in the example exercise (convolutions & pooling)? Did the resulting image increase in size or decrease? Why would this method be useful? Stretch goal: again, instead of using misc.ascent(), apply the pooling filter to one of your transformed images.
+
+
+
+### Another useful method is pooling. Apply a 2x2 filter to one of your convolved images, and plot the result.
+
+
+
+### In effect what have you accomplished by applying this filter? Does there seem to be a logic (i.e. maximizing, averaging or minimizing values?) associated with the pooling filter provided in the example exercise (convolutions & pooling)? Did the resulting image increase in size or decrease? Why would this method be useful? Stretch goal: again, instead of using misc.ascent(), apply the pooling filter to one of your transformed images.
 
 
 ### Convolve the 3x3 filter over the 9x9 matrix and provide the resulting matrix. link to matrices
