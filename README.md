@@ -58,7 +58,7 @@ It helps by removing any unnecessary features and allows you to keep only the pr
 
 ![](filter2.jpg)
 
-### Filter #3 emphasizes the horizontal and vertical lines. Even the lines on the pathway which the woman walks are visible now when compared to the other two filters.
+### Filter #3 emphasizes the horizontal and vertical lines. Even the lines on the pathway that the woman walks on are visible now when compared to the other two filters.
 
 <code> filter #3 = [ [2, 4, 2], [1,-2,1], [-4, -8, 4]] </code>
 
